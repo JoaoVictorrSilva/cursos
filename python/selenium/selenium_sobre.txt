@@ -1,0 +1,21 @@
+O que é selenium?
+
+Selenium é uma biblioteca, de sowftware livre, sob licença Apache 2.0,
+que tem ajuda a resolver trabalhos manuais e repetitivos usando o browser.
+
+    * Biblioteca: Conjunto de ferramentas, feitas com código.
+    * Sowftware livre: sowftware que garante com que sua liberdade seja protegida.
+    * Apache 2.0: Linceça que garante a sua liberdade, a burocracia dos direitos autorais.
+    * Browser: navegador de internet.
+
+Para que serve o Selenium?
+    * Automação de testes de sowftware;
+    * Criação de bots;
+    * Redução de trabalho "repetitivos";
+    * Raspar dados da internet;
+
+Configuração:
+    * dentro do diretório do curso: python -m venv venv
+    * joao@joao-Inspiron-3583:~/Documentos/joao/cursos/python/selenium$ source venv/bin/activate
+    * (venv) joao@joao-Inspiron-3583:~/Documentos/joao/cursos/python/selenium$ 
+    * para sair do diretório virtual: deactivate
