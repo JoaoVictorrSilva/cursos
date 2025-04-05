@@ -1,0 +1,134 @@
+**Estrutura**
+
+*joao@joao-Inspiron-3583:~$*
+	*joao* antes do *@* -> indica o usuário que está logado no sistema.
+	*@joao-Inspiron-3583* -> nome do dispositivo que é usado.
+	*:~$* -> home
+
+*Tab* -> autocomplete
+
+*Linux* -> **Kernel** (Núcleo de um sistema operacional)
+
+*root* -> todos os arquivos de configuração, biblioteca, etc do super usuário
+
+*bash* -> interpretador de comando do ubunto
+
+*Dentro da Raiz (cd /)*
+	/bin → armazenamento de arquivos binários essenciais do sistema.
+
+	/boot → armazenamento de arquivos necessários para a inicialização do sistema, incluindo o carregador de inicialização (boot loader) e o kernel do Linux.
+
+	/dev → armazenamento de arquivos de dispositivo (device files) que representam dispositivos de hardware, como discos rígidos, terminais e outros periféricos.
+
+	/etc → armazenamento de arquivos de configuração do sistema.
+
+	/home → armazenamento de diretórios pessoais dos usuários.
+
+	/lib → armazenamento de bibliotecas compartilhadas essenciais para binários localizados nos diretórios /bin e \sbin.
+
+	/media → ponto de montagem para mídias removíveis (drivers USB, por exemplo).
+
+	/mnt → ponto de montagem temporária para sistemas de arquivos. Usado para montar temporariamente outros sistemas de arquivos durante a administração do sistema.
+
+	/opt → armazenamento de aplicativos opcionais e pacotes de software adicionais que não fazem parte da instalação padrão do sistema.
+
+	/proc → sistema de arquivos virtual que armazena informações sobre os processos em execução e o estado do kernel.
+
+	/root → diretório pessoal do usuário root (superusuário).
+
+	/run → armazenamento de informações voláteis sobre o sistema desde a última inicialização, como PID files e sockets.
+
+	/sbin → armazenamento de binários essenciais para a administração do sistema, necessários para o boot e recuperação do sistema.
+
+	/srv → armazenamento de dados específicos de serviços fornecidos pelo sistema.
+
+	/sys → sistema de arquivos virtual que fornece informações e interfaces para o kernel do Linux.
+
+	/tmp → armazenamento de arquivos temporários criados por aplicativos e pelo sistema. Esses arquivos geralmente são excluídos ao reiniciar o sistema.
+
+	/usr → armazenamento de dados de usuário mais instalados pelo sistema, incluindo binários adicionais, bibliotecas e arquivos de cabeçalho.
+
+	/var → armazenamento de arquivos variáveis, como logs, filas de email e arquivos de spool.
+
+
+**Comandos Básicos**
+
+*man -k .* -> todos os comandos 
+
+*help* ou *comando help*
+
+*ls* -> exibe apenas os nomes dos arquivos/pastas (aqueles sem necessidade de permissões).
+
+*ll* -> exibe detalhadamente cada arquivo/pasta e arquivos ocultos
+
+*cd nome_diretório* -> mudar de diretório (change directory)
+
+*pwd* -> print working directory (exibir diretório de trabalho)
+
+*clear* -> limpar terminal
+
+*cd* -> levar a home do usuário
+
+*cd /* -> navegação na raiz do sistema (de **:~$** para **:/$**)
+
+*sudo* -> super user do (fazer como super usuário)
+
+*sudo -i* -> sessão como super user
+
+*exit* -> sair do modo de super user
+
+*cat* -> exibir conteúdo de arquivos
+
+*mkdir* -> make directory (criar deretório)
+
+*touch nome_arquivo.txt* -- criar qualquer tipo (.py, .json, .sql,) de arquivo vazio
+
+*nano* -> editor de texto
+
+*mv* -> move (mover)
+
+*cp* -> copy (cópia)
+
+*rm* -> remove files or directories
+
+*rmdir* -> remove diretórios vazios
+
+*rm -r ou rm -ri* -> remover diretórios não vazios
+
+*echo* -> apresenta informações no termimal
+
+
+
+**Comandos Avançados**
+
+*sudo apt update* -> baixa atualizações (apt = Advanced Packaging Tool)
+
+*sudo apt upgrade* -> instala atualizações
+
+*sudo apt install python3* -> instalar um programa específico 
+
+*top* -> table of processes (mesa de processos) (P ordenar pelo uso de processador, M para ordenar pelo uso de memória)
+
+*ps* -> processos
+
+*ps aux* -> processos detalhados
+
+*ps -u joao* -> processos usuario joao
+
+*pstree* -> processos em árvore
+
+*ps aux* --sort=-%mem
+
+*ps aux --sort=-%mem | head -n 11*
+
+*kill (pid)* -> matar processos
+
+
+
+**Acesso remoto no Linux**
+
+
+
+**Comandos Git**
+
+*git clone https://url_repositorio_aqui* -- clonar repositório remoto para o diretório atual
