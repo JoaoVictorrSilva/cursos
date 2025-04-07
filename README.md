@@ -8,8 +8,8 @@ Este repositório serve como meu histórico de cursos que concluí ou estou estu
 
 | Curso | Plataforma | Status | Link |
 |-------|------------|--------|------|
+| JavaScript: explorando a linguagem | Alura | em andamento | [ver](./alura/javaScript/explorando_a_linguagem) |
 | nome_curso | nome_plataforma | concluído | [ver](./nome_curso) |
-| nome_curso | nome_plataforma | em andamento | [ver](./nome_curso) |
 | nome_curso | nome_plataforma | planejato | _sem pasta ainda_ |
 
 ---
